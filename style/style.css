@@ -1,15 +1,9 @@
-body{
-     
-    font-family:"Azeret Mono", monospace;
-     
-}
+
 *{
+    font-family:"Azeret Mono", monospace;
     margin:0px;
     padding:0px;
-}
-/* body-section-content */
-.body{
-    font-family: "Azeret Mono", monospace;
+    
 }
 /* header-section-container-style */
 .header-section-container{
@@ -45,6 +39,7 @@ body{
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
     opacity: 0.8;
+    cursor: pointer;
 }
 .header-content-section{
     width: 998px;
@@ -79,6 +74,7 @@ body{
     line-height: 23px;
     color:rgb(255, 255, 255);
     margin-top:21px;
+    cursor:pointer;
 }
 /* main-section-container-style */
 .main-section-container{
@@ -114,6 +110,7 @@ body{
     order: 1px;
     font-size: 14px; 
     margin-top: 5px;  
+    cursor:pointer;
 }
 /* developer-content-section*/
 .developer-text-content{
@@ -513,6 +510,8 @@ body{
     background: rgb(255, 255, 255);
     font-size: 20px;
     padding: 16px;
+    font-weight:600;
+    cursor: pointer;
  }
  #section-inspiration-content {
     display: flex;
@@ -531,10 +530,10 @@ body{
  }
 #footer-content, h6{
     font-size: 20px;
-font-weight: 600;
-line-height: 23px;
+    font-weight: 600;
+ 
 }
 .footer-content{
     display:flex;
-    justify-content:
+    align-items: center;
 }
