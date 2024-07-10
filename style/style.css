@@ -91,8 +91,7 @@ body{
     width: 946px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
-      margin:80px 97px;
-      padding:80px;   
+    padding:80px;   
 }
 .developer-section-content h1{
     font-size: 32px;
